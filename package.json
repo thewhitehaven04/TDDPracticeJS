@@ -1,0 +1,21 @@
+{
+  "name": "testingpractice",
+  "version": "1.0.0",
+  "description": "Test-Driven-Development practice project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "jest --watch *.js"
+  },
+  "author": "German Bulavkin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.4",
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "babel-jest": "^29.5.0"
+  }
+}
